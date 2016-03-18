@@ -37,22 +37,29 @@ package com.toy.anagrams.lib;
 final class StaticWordLibrary extends WordLibrary {
 
     private static final String[] WORD_LIST = {
-        "one",
-        "two",
-        "three",
-        "four",
-        "five",
-    "six",
-    "seven"};
+        "en",
+        "to",
+        "tre",
+        "fire",
+        "fem",
+        "seks",
+        "syv",
+        "otte",
+        "ni",
+        "ti"
+    };
 
     private static final String[] SCRAMBLED_WORD_LIST = {
-        "two",
-        "three",
-        "five",
-        "one",
-        "four",
-        "seven",
-        "six"
+        "en",
+        "to",
+        "tre",
+        "fire",
+        "fem",
+        "seks",
+        "syv",
+        "otte",
+        "ni",
+        "ti"
     };
     
     final static WordLibrary DEFAULT = new StaticWordLibrary();
