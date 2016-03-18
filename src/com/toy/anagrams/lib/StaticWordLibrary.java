@@ -41,14 +41,18 @@ final class StaticWordLibrary extends WordLibrary {
         "two",
         "three",
         "four",
-        "five"};
+        "five",
+    "six",
+    "seven"};
 
     private static final String[] SCRAMBLED_WORD_LIST = {
         "two",
         "three",
         "five",
         "one",
-        "four"
+        "four",
+        "seven",
+        "six"
     };
     
     final static WordLibrary DEFAULT = new StaticWordLibrary();
